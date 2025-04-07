@@ -28,7 +28,7 @@ Implement PHP scripts for:
 User registration and login.
 Displaying all blog posts.
 Adding new blog posts.
-Searching for posts. (This script should be intentionally vulnerable to SQL injection for educational purposes.)
+Searching for posts. 
 
 Web Interface:
 
