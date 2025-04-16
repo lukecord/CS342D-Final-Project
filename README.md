@@ -178,7 +178,12 @@ If you want to allow an external application (like MySQL Workstation) to access 
 sudo ufw allow 3306
 ```
 
-You will also need to allow remote connections in MySQL:
+You will also need to use SSH tunnelling for MySQL:
+<img width="718" alt="image" src="https://github.com/user-attachments/assets/4921d402-f5ad-4e80-9e1d-e9cf8f3acd29" />
+
+<img width="719" alt="image" src="https://github.com/user-attachments/assets/6ece4c4a-f8ca-40e0-b029-0d1934573545" />
+
+
 
 
 
