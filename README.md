@@ -28,13 +28,15 @@ You are tasked with creating a simple blogging platform using PHP and MySQL. Thi
 ## Tasks:
 
 ### Database Setup:
-**THIS IS A NO AI ZONE**
+**THIS IS A NO-AI-ZONE**
+
 1. Analyze and normalize the provided dataset to at least the 2nd normal form.
 2. Create SQL scripts to generate the database schema including tables for users, posts, comments, etc.
 3. Populate the database with initial data.
 
 ### Development of PHP Web Application:
 *AI FRIENDLY ZONE. WEAPONS FREE.*
+
 Implement PHP scripts for:
 1. User registration and login.
 2. Displaying all blog posts.
