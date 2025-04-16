@@ -125,21 +125,27 @@ Then restart Apache:
 sudo systemctl restart apache2
 ```
 
-Check this link for more specifics:
+Check this link for more specifics: 
 [https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu#changing-apache-s-directory-index-optional]
 
-#### Other Apache Info
+#### Other Apache Info 
 There are many other things you can do with Apache.  I recommend that you spool through the following documents to get an understanding of what's happening.  (I actually expect nearly all of you to skip these links, but if I write this here, then when you don't read the documents and come to me with questions, I can just point you right back to these links.  Sooner or later, you will probably click them.  Save us both some time and energy and just read them now.)
 
-**How to Install Apache**
-[https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04]
-This is for your information so you understand where it installed and where the files are.
-NOTE: DO NOT do Step 1 and reinstall Apache, it is already installed for you. 
-ALSO NOTE: DO NOT do Step 5 where it says to use Apache Virtual Hosts.  You DO NOT need to do that.
-OMG ANOTHER NOTE: Step 6 is the good stuff.  References to file locations etc.
+**How to Install Apache** 
+
+[https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04] 
+This is for your information so you understand where it installed and where the files are. 
+
+NOTE: DO NOT do Step 1 and reinstall Apache, it is already installed for you.  
+
+ALSO NOTE: DO NOT do Step 5 where it says to use Apache Virtual Hosts.  You DO NOT need to do that. 
+
+OMG ANOTHER NOTE: Step 6 is the good stuff.  References to file locations etc. 
 
 **Installing LAMP Stack on Ubuntu**
+
 [https://www.digitalocean.com/community/tutorials/how-to-install-lamp-stack-on-ubuntu]
+
 Another INFORMATIONAL article.  You DO NOT NEED to install the LAMP stack because, guess what, it's already installed for you.  However, if something isn't working, this might be a good article to check and see what's up.
 
 
