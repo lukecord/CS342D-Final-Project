@@ -14,10 +14,10 @@ This assignment is designed to help you understand the principles of database ma
 
 By the end of this project, you will be able to:
 
-Design and implement a relational database using MySQL.
-Develop a web interface using PHP to interact with the database.
-Understand and apply basic security measures to protect a web application.
-Identify and demonstrate SQL injection vulnerabilities and other security risks in web applications.
+- Design and implement a relational database using MySQL.
+- Develop a web interface using PHP to interact with the database.
+- Understand and apply basic security measures to protect a web application.
+- Identify and demonstrate SQL injection vulnerabilities and other security risks in web applications.
 
 ## Project Description:
 
