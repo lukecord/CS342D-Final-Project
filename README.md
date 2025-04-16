@@ -135,9 +135,9 @@ There are many other things you can do with Apache.  I recommend that you spool 
 
 [https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04] 
 This is for your information so you understand where it installed and where the files are. 
-NOTE: DO NOT do Step 1 and reinstall Apache, it is already installed for you.  
-ALSO NOTE: DO NOT do Step 5 where it says to use Apache Virtual Hosts.  You DO NOT need to do that. 
-OMG ANOTHER NOTE: Step 6 is the good stuff.  References to file locations etc. 
+- NOTE: DO NOT do Step 1 and reinstall Apache, it is already installed for you.  
+- ALSO NOTE: DO NOT do Step 5 where it says to use Apache Virtual Hosts.  You DO NOT need to do that. 
+- OMG ANOTHER NOTE: Step 6 is the good stuff.  References to file locations etc. 
 
 **Installing LAMP Stack on Ubuntu**
 
