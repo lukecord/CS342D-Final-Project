@@ -115,6 +115,14 @@ You can access the files for this project one of the following ways:
 
 You will have to edit some of the files to make them work for you, such as `db_connect.php`, where you need to put in the correct database name and credentials to connect to your specific database.
 
+#### Remote File Access
+You can access the files on your server by using FTP over SSH (SFTP). Here is an article on how it works along with a screen shot of what it might look like:
+
+[https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server]
+
+![image](https://github.com/user-attachments/assets/44972df2-62c1-4aa0-86e6-4842b95052b2)
+
+
 
 ### Apache/Web
 HTTPS is outside the scope of this project.  To acquire an SSL certificate you need to have a domain name attached to your IP, plus you need to setup Apache Virtual Hosts and that is, again, outside the scope of this project.
