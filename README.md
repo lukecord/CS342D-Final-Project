@@ -181,10 +181,12 @@ sudo ufw allow 3306
 You will also need to use SSH tunnelling for MySQL:
 
 MySQL Workbench:
+
 ![image](https://github.com/user-attachments/assets/888b5d64-3bdd-4d75-9ccd-486c6793d4c9)
 
 
 DBeaver:
+
 <img width="718" alt="image" src="https://github.com/user-attachments/assets/4921d402-f5ad-4e80-9e1d-e9cf8f3acd29" />
 
 <img width="719" alt="image" src="https://github.com/user-attachments/assets/6ece4c4a-f8ca-40e0-b029-0d1934573545" />
