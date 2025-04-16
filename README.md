@@ -192,4 +192,4 @@ If you do not at least change the password of the 'setup' account, I will only s
 
 
 # Conclusion
-Good luck.
+You're in college, figure it out. Good luck.
