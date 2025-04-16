@@ -7,7 +7,8 @@ I encourage you to use ChatGPT etc. for all aspects of this project EXCEPT for:
 
 If you use AI on these portions, may you stub your toe on every door jam you come across for the rest of your life. Also I will find out and you will fail the assignment.
 
-## Objective: This assignment is designed to help you understand the principles of database management, SQL querying, web application development, and the fundamentals of securing applications against common vulnerabilities.
+## Objective: 
+This assignment is designed to help you understand the principles of database management, SQL querying, web application development, and the fundamentals of securing applications against common vulnerabilities.
 
 ## Learning Outcomes:
 
