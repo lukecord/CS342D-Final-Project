@@ -172,6 +172,15 @@ This is the point of this project.  Do some research and figure out how it works
 
 NOTE: Guess what?  Don't do Step 1, MySQL is already installed.
 
+#### Remote MySQL Access
+If you want to allow an external application (like MySQL Workstation) to access your MySQL database, you need to open the port on the firewall"
+```
+sudo ufw allow 3306
+```
+
+You will also need to allow remote connections in MySQL:
+
+
 
 ### Firewall
 [https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04#step-2-adjusting-the-firewall]
