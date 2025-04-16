@@ -50,6 +50,7 @@ Implement PHP scripts for:
 
 ### Security Analysis:
 **NO AI ALLOWED.**
+
 Examine the vulnerabilities in the provided PHP scripts, especially focusing on SQL injection.
 Document how these vulnerabilities can be exploited and propose measures to mitigate these risks.
 
