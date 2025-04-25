@@ -1,13 +1,21 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+    <?php include 'navbar.php'; ?>
+</head>
 <?php
 include 'db_connect.php';
+//include 'navbar.php';
 
 $sql = "SELECT * FROM Posts;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
+    echo "<ol>";
     while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["PostID"]. " - Title: " . $row["Title"]. " - Content: " . $row["Content"]. "<br>";
+        echo "<div><h3>" . $row["PostID"]. ": " . $row["Title"]."</h3><p>".$row["Content"]."</p></div>";
+        //echo "id: " . $row["PostID"]. " - Title: " . $row["Title"]. " - Content: " . $row["Content"]. "<br>";
     }
+    echo "</ol>";
 } else {
     echo "0 results";
 }
