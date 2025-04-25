@@ -6,7 +6,7 @@ $content = $_POST['content'];
 $userid = $_POST['userid']; // Assuming user id is known
 $categoryid = $_POST['categoryid']; // Assuming category id is known
 
-$sql = "INSERT INTO BlogPosts (UserID, Title, Content, CategoryID)
+$sql = "INSERT INTO Posts (UserID, Title, Content, CategoryID)
 VALUES ('$userid', '$title', '$content', '$categoryid')";
 
 if ($conn->query($sql) === TRUE) {
