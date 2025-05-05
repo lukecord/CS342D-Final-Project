@@ -1,4 +1,5 @@
 <?php
+// Ensure user is logged in and redirect to login page if not
 session_start();
 if (!isset($_SESSION['userID'])) {
     header('Location: login.html');

@@ -1,4 +1,5 @@
 <?php
+// Check if the user failed to log in
 session_start();
 $error = $_SESSION['login_error'] ?? null;
 unset($_SESSION['login_error']);
@@ -25,6 +26,8 @@ unset($_SESSION['login_error']);
         <input type="submit" value="Login">
     </form>
     <a href="register_user.php">Create new account</a>
+
+<!-- Handles a possible failed login attempt -->
     <?php if ($error): ?>
         <p style="color:red;"><?php echo htmlspecialchars($error); ?></p>
     <?php endif; ?>
