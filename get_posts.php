@@ -12,7 +12,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     echo "<ol>";
     while($row = $result->fetch_assoc()) {
-        echo "<div><h3>" . $row["PostID"]. ": " . $row["Title"]."</h3><p>".$row["Content"]."</p></div>";
+        echo "<div><h3>" . htmlspecialchars($row["PostID"]). ": " . htmlspecialchars($row["Title"])."</h3><p>".htmlspecialchars($row["Content"])."</p></div>";
         //echo "id: " . $row["PostID"]. " - Title: " . $row["Title"]. " - Content: " . $row["Content"]. "<br>";
     }
     echo "</ol>";

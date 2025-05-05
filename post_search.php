@@ -1,27 +1,16 @@
-<?php
-include 'db_connect.php';
-
-function searchPosts($keyword) {
-    global $conn;
-    
-    // Directly inserting the keyword into the SQL query
-    $sql = "SELECT * FROM BlogPosts WHERE Title LIKE '%$keyword%' OR Content LIKE '%$keyword%'";
-
-    // Execute the query
-    $result = $conn->query($sql);
-
-    if ($result->num_rows > 0) {
-        // Fetch and display all posts containing the keyword
-        while($row = $result->fetch_assoc()) {
-            echo "PostID: " . $row["PostID"]. " - Title: " . $row["Title"]. " - Content: " . $row["Content"]. "<br>";
-        }
-    } else {
-        echo "No results found";
-    }
-}
-
-// Example usage
-searchPosts("example_keyword");
-
-$conn->close();
-?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Posts</title>
+    <link rel="stylesheet" href="style.css">
+    <?php include 'navbar.php';?>
+</head>
+<body>
+    <h1>Search Blog Posts</h1>
+    <form action="post_search_result.php" method="get">
+        <label for="keyword">Search Keyword:</label><br>
+        <input type="text" id="keyword" name="keyword"><br>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
