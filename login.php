@@ -5,11 +5,17 @@ unset($_SESSION['login_error']);
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>User Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <?php include 'navbar.php'; ?>
+    <main class="text-center">
+    <section class="card">
     <h1>User Login</h1>
     <form action="login_result.php" method="post">
         <label for="username">Username:</label><br>
@@ -22,5 +28,8 @@ unset($_SESSION['login_error']);
     <?php if ($error): ?>
         <p style="color:red;"><?php echo htmlspecialchars($error); ?></p>
     <?php endif; ?>
+    </section>
+    </main>
+    <footer> <p>© <?= date('Y') ?> ℤ Media. Happy searching!</p> </footer>
 </body>
 </html>
